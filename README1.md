@@ -24,10 +24,10 @@ This is a Firefox plugin that adds formatters to Selenium IDE so that scripts ca
 
 
 ## Supported CAT Setps:
-DoLogin
-TypeValue
-ClickTarget
-(to be continue..)
+**DoLogin
+**TypeValue
+**ClickTarget
+**(to be continue..)
 
 
 
@@ -42,11 +42,11 @@ ClickTarget
 
 * Some formatters sample:
 **  There are two ways to add formatter in selenium ide,
-***  1) develop a plugin based on  selenium ide, sample:
-*** 	https://github.com/brokenthumbs/php-formatter
+   1) develop a plugin based on  selenium ide, sample:
+  	https://github.com/brokenthumbs/php-formatter
 
-***  2) use selenium ide's add format function, sample:
-***        https://github.com/denschu/selenium-ide-format-robotframework
+   2) use selenium ide's add format function, sample:
+        https://github.com/denschu/selenium-ide-format-robotframework
   
 **(here I choose the 2nd way since it's easier)      
 
@@ -57,8 +57,8 @@ ClickTarget
 
 ** You need to enable (or create) 2 particular options in about:config for extension debugging to work
 
-***  devtools.chrome.enabled: true
-***  devtools.debugger.remote-enabled: true
+    devtools.chrome.enabled: true
+    devtools.debugger.remote-enabled: true
 
 
 
