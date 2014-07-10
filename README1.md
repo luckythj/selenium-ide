@@ -30,20 +30,23 @@ This is a Firefox plugin that adds formatters to Selenium IDE so that scripts ca
 ## Some useful resource
 
 * firefox extenstion development: 
-   http://kb.mozillazine.org/Getting_started_with_extension_development
+   
+   [extenstion development](http://kb.mozillazine.org/Getting_started_with_extension_development)
 
 * selenium-ide plugin api: 
-   http://adam.goucher.ca/?s=The+Selenium-IDE+1.x+plugin+API
-   http://www.ministryoftesting.com/2011/09/an-introduction-to-selenium-ide-plugins-2/
+   
+   [The+Selenium-IDE+1.x+plugin+API](http://adam.goucher.ca/?s=The+Selenium-IDE+1.x+plugin+API)
+
+   [an-introduction-to-selenium-ide-plugins](http://www.ministryoftesting.com/2011/09/an-introduction-to-selenium-ide-plugins-2/)
 
 * Some formatters sample:
   There are two ways to add formatter in selenium ide.
 
    1) develop a plugin based on  selenium ide, sample:
-  	https://github.com/brokenthumbs/php-formatter
+      	[php formatter](https://github.com/brokenthumbs/php-formatter)
 
    2) use selenium ide's add format function, sample:
-        https://github.com/denschu/selenium-ide-format-robotframework
+         [robotframework formatter](https://github.com/denschu/selenium-ide-format-robotframework)
   
   (here I choose the 2nd way since it's easier)      
 
@@ -54,8 +57,9 @@ This is a Firefox plugin that adds formatters to Selenium IDE so that scripts ca
 
    You need to enable (or create) 2 particular options in about:config for extension debugging to work
 
-    devtools.chrome.enabled: true
-    devtools.debugger.remote-enabled: true
+   > devtools.chrome.enabled: true
+   
+   > devtools.debugger.remote-enabled: true
 
    And then click the new "Browser Toolbox" entry in the Web Developer menu. 
 
